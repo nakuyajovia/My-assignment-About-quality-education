@@ -1,0 +1,353 @@
+*{
+  
+  
+box-sizing: border-box;
+margin: 0;
+text-align: center;
+font-family: 'Trebuchet MS';
+line-height: 1.5;
+padding: 0;
+
+}
+.bodyc{
+
+  background-color: whitesmoke;
+}
+
+
+
+.logo{
+  text-align: center;
+  margin-top: 10px;
+}
+.logo img{
+  width: 200px;
+  height: 150px;
+}
+
+  
+
+.banner{
+  width: 100%;
+}
+.banner img{
+  width: 100%;
+  object-fit: cover;
+  height: 600px;
+}
+.contacts{
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+form{
+  margin-left: 10%;
+  width: 80%;
+  padding: 10px;
+  text-align: left;
+  background: grey;
+  box-sizing: content-box;
+}
+input{
+  width: 100%;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  height: 50px;
+  text-align: center;
+  border-radius: 20px ;
+
+}
+.Vision h3{
+  padding: 10px;
+  padding-bottom: 10px;
+  
+
+}
+.Vision p{
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: italic;
+}
+.Mission h3{
+  padding:10px;
+  margin: 0;
+
+}
+.Mission p{
+  padding:10px;
+  text-align: center;
+  margin: 0;
+
+}
+.Objectives li{
+  list-style-type: none;
+  
+
+}
+.Objectives h3{
+  padding-left: 10%;
+  
+}
+.Services{
+  padding: 10px;
+  margin: 0;
+
+}
+.Services p{
+ 
+text-align: center;
+
+}
+.Services h3{
+ 
+}
+
+
+
+.contacts p{
+  text-align: left;
+  color: white;
+  background-color: grey;
+  padding: 10px;
+  
+}
+.footer{
+  padding: 5px;
+
+}
+
+
+.Information{
+   display: grid;
+   grid-template-columns: auto auto;
+  
+}
+
+.box1{
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #3498db;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 30px;
+}
+.Vision{
+  
+  padding-top: 15px;
+}
+.Mission{
+
+  
+  padding-bottom: 10px;
+}
+
+.Information2 {
+  display: flex;
+  gap: 10px;
+}
+
+.pillar{
+  display: flex;
+  padding: 50px;
+}
+
+.own{
+  
+  background-image: url("images/graduation-hat-toss-stockcake.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+
+}
+.own h2{
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: beige;
+}
+
+  .own p{
+    font-size: 20px;
+    color: beige;
+    
+  }
+
+  .banner2 img{
+    text-align: center;
+    padding-top: 20px;
+    
+  }
+
+  
+
+
+.own h1{
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px black;
+  text-align: center;
+  top: 50%;
+  
+  
+}
+
+.pragraph{
+color: white;
+font-size: 15px;
+font-size: 30px;
+}
+
+
+
+.background2{
+
+background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;height: 100vh;
+  color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background-color: rgba(255,255,255,0.6);
+
+}
+.button{
+background: #3498db;
+margin: 0;
+border-radius: 50px;
+font-size: 50%;
+
+
+}
+.banner{
+display: flex;
+justify-content: center;
+gap: 10px;
+max-width: 100%;
+margin: 0 auto;
+height: auto;
+margin-top: 20px;
+
+}
+
+.banner div{
+  width: 50%
+}
+.banner img{
+  width:100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+.button3 button{
+margin: 10px;
+padding: 10px;
+border-radius: 50px;
+background-color: #3498db;
+}
+.contacts input {
+  
+}
+
+
+.button3 btn{
+  padding: 10px;
+}
+.overall{
+  
+}
+.menue{
+  margin-top: 20px;
+  background: #555;
+  
+}
+.own{
+background-color: aqua;
+
+}
+
+.school{
+  background-color: #3498db;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 15px;
+}
+.pillar{
+  background-color: #3498db;
+  border-radius: 15px;
+  padding: 33px;
+  margin: 15px;
+}
+
+@media(max-width: 800px) {
+  .school img{
+    width: 200px;
+    min-width: 60px;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  
+  .pillar img{
+    width: 300px;
+    min-width: 50px;
+    height: auto;
+    display: block;
+    margin: auto;
+  
+
+}
+.banner2 img{
+
+ width: 300px;
+    min-width: 50px;
+    height: auto;
+    display: block;
+    margin: auto; 
+}
+}
+
+.Contact a{
+  padding: 5px;
+  text-decoration: none;
+  background-color: whitesmoke;
+  border-radius: 22px;
+}
+
+nav{
+  background-color: #555;
+  padding: 19px;
+  margin: 20px;
+  
+}
+nav a{
+  color: white;
+  background-color: #3498db;
+  text-decoration: none;
+  margin: 20px;
+  padding: 15px;
+}
+
+.test{
+  background-color: red;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
